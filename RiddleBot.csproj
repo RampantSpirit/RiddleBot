@@ -3,11 +3,18 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Authors>Milan Kurovsky</Authors>
+    <Authors>Milan Kurovský</Authors>
     <Company>The Digital Technologist</Company>
     <Product>Riddle Bot</Product>
     <AssemblyName>RiddleBot</AssemblyName>
     <RootNamespace>RiddleBot</RootNamespace>
+    <ApplicationIcon>RiddleBot.ico</ApplicationIcon>
+    <RepositoryUrl>https://github.com/RampantSpirit/RiddleBot</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +29,13 @@
   <ItemGroup>
     <PackageReference Include="Discord.Net" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
