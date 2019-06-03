@@ -1,5 +1,5 @@
 # RiddleBot
-**RiddleBot** is a Discord bot that gives riddles. Made using the [Discord.Net](https://github.com/discord-net/Discord.Net) library. 
+**RiddleBot** is a *Discord* bot that gives riddles. Made using the [Discord.Net](https://github.com/discord-net/Discord.Net) library. 
 Base bot code made following the guides available at the [Discord Net Documentation Website](https://discord.foxbot.me/stable/guides/introduction/intro.html).
 Originally conceptualised for use in the [*MediEvil* Discord server](https://discordapp.com/invite/X84wKBp) as [Jack of the Green](https://gallowmere.fandom.com/wiki/Jack_of_the_Green), a character who gives out riddles in the *MediEvil* game.
 
@@ -33,3 +33,12 @@ The bot has the following commands available:
 - !give clues - *Lists all the available clues at once.*
 - !give answer - *Answers the riddle.*
 
+## What to contribute
+
+All contributions are welcome! The bot especially needs the following:
+
+1. More riddles.
+2. Clues for riddles that have no clues.
+3. Translations into other languages.
+
+All of these can be accomplished by editing and/or copying the **Data.json** and **Riddles.json** files.
