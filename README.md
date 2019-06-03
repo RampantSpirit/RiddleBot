@@ -20,7 +20,7 @@ The bot has the following commands available:
 ### General
 
 - !intro - *The bot will introduce itself.*
-- !help - *Prints some of the commands."
+- !help - *Prints some of the commands.*
 - !give riddle - *The bot will say a riddle, unless a riddle was already said previously.*
 - !give new riddle - *Gives a new riddle, even if a riddle was previously said.*
 - !repeat riddle - *Repeats the already given riddle.*
