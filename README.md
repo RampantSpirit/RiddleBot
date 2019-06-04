@@ -10,7 +10,7 @@ You can follow the walkthrough available [here](https://discord.foxbot.me/stable
 2. Then, you can download [one of the releases available here on GitHub](https://github.com/RampantSpirit/RiddleBot/releases) 
 or download the source to compile the bot yourself.
 3. When initialising the bot, you will first be prompted to select a language and then you will be prompted for your bot token, which can be found in the Discord Applications portal under the Bot tab for your application.
-4. You should now have a running bot. If you want it running 24/7, considering [various deployment options available](https://discord.foxbot.me/stable/guides/deployment/deployment.html) or buying a Raspberry Pi for deployment.
+4. Congratulations, you should now have a running RiddleBot. If you want it running 24/7, considering [various deployment options available](https://discord.foxbot.me/stable/guides/deployment/deployment.html) or buying a Raspberry Pi for deployment.
 5. Enjoy!
 
 ## Commands
