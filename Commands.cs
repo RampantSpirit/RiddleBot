@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Discord;
 using Discord.Commands;
 using Newtonsoft.Json;
 using System.IO;
@@ -71,7 +70,7 @@ public class Info : ModuleBase
         await ReplyAsync(data[19] + "\n\n" + data[20] + "\n" +
                          data[21] + "\n" + data[22] + "\n" +
                          data[23] + "\n" + data[24] + "\n" +
-                         data[25]);
+                         data[25] + "\n" + data[26]);
     }
 
     // ~guess 

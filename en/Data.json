@@ -19,10 +19,11 @@
   "The answer was: ",
   "Very well.",
   "Here are some of the commands you can give me:",
-  "!guess - *Follow this command up with your answer to the riddle to make a guess.*",
-  "!give up - *Ends current riddle.*",
   "!intro - *I will introduce myself!*",
   "!give riddle - *I will give you a riddle if I didn't give you one already.*",
   "!give new riddle - *I will give you a new riddle, even if I already gave you one!*",
-  "!give clue - *I'll give you a clue, if I have one.*"
+  "!repeat riddle - *I will repeat the riddle I gave you... if I gave you one.*",
+  "!give clue - *I'll give you a clue, if I have one.*",
+  "!guess - *Follow this command up with your answer to the riddle to make a guess.*",
+  "!give up - *Ends current riddle.*"
 ]
