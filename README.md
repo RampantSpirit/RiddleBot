@@ -41,4 +41,4 @@ All contributions are welcome! The bot especially needs the following:
 2. Clues for riddles that have no clues.
 3. Translations into other languages.
 
-All of these can be accomplished by editing and/or copying the **Data.json** and **Riddles.json** files.
+All of the above can be accomplished by editing the **Data.json** and **Riddles.json** files.
